@@ -11,4 +11,8 @@ class Pokemon
     @type = type 
     @db = db
   end
+  
+  def self.find(id)
+    pokemon = db.execute("S")
+  end
 end
